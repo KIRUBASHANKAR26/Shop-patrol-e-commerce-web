@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Shop patrol</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <!-- slick -->
+    <link rel="stylesheet" href="./slick-master/slick/slick.css">
+    <link rel="stylesheet" href="./slick-master/slick/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="home">
+        <nav id="top-bar">
+            <div id="logo">
+                <a href="#">
+                    <h4><span>SHOP</span>PATROL</h4>
+                </a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li>
+                    <a href="#home">HOME</a>
+                </li>
+                <li>
+                    <a href="#clothing">CLOTHINGS</a>
+                </li>
+                <li>
+                    <a href="#accessories">ACCESSORIES</a>
+                </li>
+            </ul>
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <div class="cart">
+                    <a href="/html/checkout.html">
+                        <i class="fas fa-cart-arrow-down">
+                            <sup id="cart-count">0</sup>
+                        </i>
+                    </a>
+                </div>
+                <i class="far fa-user-circle"></i>
+                <div id="burger" class="burger">
+                    <div id="line-1"></div>
+                    <div id="line-2"></div>
+                    <div id="line-3"></div>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <section id="cart-section">
+        <h1>Checkout</h1>
+        <div class="cart-container">
+            <div class="left-side">
+                <p>Total Item <span id="number-of-item"></span></p>
+                <div class="cart-items" id="cart-item-container"></div>
+            </div>
+            <div class="right-side">
+                <div class="total-amount">
+                    <h2>Total Amount</h2>
+                    <p>Total Amount :Rs <span id="total-amount"></span></p>
+                    <a href="/html/orderconfirm.html">
+                        <button id="place-order">Place Order</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        <ul class="online-store">
+            <li><h3>Online Store</h3></li>
+            <li><a href="#">Men Clothing</a></li>
+            <li> <a href="#">Women Clothing</a></li>
+            <li><a href="#">Men accessories</a></li>
+            <li><a href="#">Women Accessories</a></li>
+        </ul>
+        <ul class="helpful-links">
+            <li><h3>Helpful Links</h3></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="partners">
+            <li><h3>Patners</h3></li>
+            <li><a href="#">Zara</a></li>
+            <li><a href="#">Pantaloons</a></li>
+            <li><a href="#">Levis</a></li>
+            <li><a href="#">Ucb</a></li>
+            <li><a href="#">+ Many More</a></li>
+          </ul>
+          <ul class="address">
+            <li><h3>Address</h3></li>
+            <li><a href="#">Building 101</a></li>
+            <li><a href="#">Central Avenue</a> </li>
+            <li><a href="#"> LA - 902722</a></li>
+            <li><a href="#">United States</a> </li>
+          </ul>
+    </footer>
+    <script type="text/javascript" src="./slick-master/slick/slick.min.js"></script>
+    <script src="/main.js"></script>
+    <script src="/checkout.js"></script>
+</body>
+</html>
